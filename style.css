@@ -102,7 +102,7 @@ body::before {
   color: #b8001f;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 768px) {
   .hamburger {
     display: block;
   }
@@ -154,7 +154,7 @@ body::before {
   font-weight: lighter;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 768px) {
   .hero-text h1 {
     font-size: 7vw;
   }
@@ -199,7 +199,7 @@ body::before {
   line-height: 1.2;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 768px) {
   .desc {
     font-size: 4vw;
   }
@@ -361,7 +361,7 @@ body::before {
   pointer-events: auto;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 768px) {
   .ilust-a {
     margin: 24px;
     width: 90%;
