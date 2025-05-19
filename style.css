@@ -33,7 +33,7 @@ body::before {
     justify-content: space-between;
     align-items: center;
     background-color: #ffffff;
-    padding: 10px 30px;
+    padding: 10px 20px;
     border-radius: 30px;
     margin: 20px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
@@ -103,6 +103,11 @@ body::before {
 }
 
 @media (max-width: 768px) {
+
+  .brand {
+    font-size: 5.5vw;
+  }
+
   .hamburger {
     display: block;
   }
@@ -200,8 +205,12 @@ body::before {
 }
 
 @media (max-width: 768px) {
+  
+  .img-with-desc {
+    margin: 20px;
+  }
   .desc {
-    font-size: 4vw;
+    font-size: 4.5vw;
   }
 }
 
@@ -244,7 +253,7 @@ body::before {
 
 .desc-1 h1{
   font-size: 24px;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .desc-1 p{
@@ -293,6 +302,34 @@ body::before {
   max-width: 150px;
   margin-top: 10px;
 }
+
+@media (max-width: 768px) {
+
+  .visi-misi {
+    font-size: 6vw;
+  }
+
+  .poin-penting {
+    margin: 20px;
+  }
+
+  .poin-1 {
+    margin: 0px;
+  }
+
+  .desc-1 {
+    padding-right: 0px;
+  }
+
+  .desc-1 h1 {
+    font-size: 5vw;
+  }
+
+  .desc-1 p {
+    font-size: 4vw;
+  }
+}
+
 
 .program {
   display: flex;
@@ -362,16 +399,30 @@ body::before {
 }
 
 @media (max-width: 768px) {
+
+  .program {
+    margin: 20px;
+  }
+
   .ilust-a {
-    margin: 24px;
-    width: 90%;
-    max-width: 100%;
+    margin: 20px 20px 0px 20px;
+    width: 100%;
+    max-width: 89%;
   }
   .desc-a {
-    margin: 0px 24px 20px 24px;
+    margin: 0px 20px 20px 20px;
+  }
+
+  .desc-a h1 {
+    font-size: 8vw;
+  }
+
+  .desc-a p {
+    font-size: 4vw;
   }
 
   .paket a.btn {
-    margin: 0px 24px 20px 24px;
+    margin: 0px 20px 20px 20px;
+    font-size: 5vw;
   }
 }
