@@ -406,6 +406,7 @@ body::before {
 
   .paket {
     max-width: fit-content;
+    margin: 0px;
   }
 
   .ilust-a {
