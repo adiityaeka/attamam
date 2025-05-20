@@ -109,6 +109,13 @@ body::before {
     background-size: 100vh;
   }
 
+  .navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  }
+
   .brand {
     font-size: 5.5vw;
   }
