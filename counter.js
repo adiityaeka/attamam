@@ -48,7 +48,7 @@ function animateCounters(duration = 6000) {
 
 const observer = new IntersectionObserver((entries) => {
   if (entries[0].isIntersecting && !hasAnimated) {
-    animateCounters(1500);
+    animateCounters(2000);
     hasAnimated = true;
   }
 }, { threshold: 0.5 });
