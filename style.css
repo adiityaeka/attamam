@@ -243,6 +243,14 @@ body::before {
   margin-top: 10px;
 }
 
+.poin-1:hover .ilust-1 {
+  animation: bounce 0.3s ease-in-out;
+}
+
+.poin-1:not(hover) .ilust-1 {
+  animation: dropDown 0.3s ease-in-out;
+}
+
 .program {
   display: flex;
   align-items: flex-start;
@@ -356,10 +364,26 @@ body::before {
 }
 
 @keyframes fadeInUp {
+  from {
+    transform: translateY(10px);
+    opacity: 0;
+  }
   to {
     opacity: 1;
     transform: translateY(0);
   }
+}
+
+@keyframes bounce {
+  0%   { transform: translateY(0); }
+  50%   { transform: translateY(-10px); }
+  100% { transform: translateY(0); }
+}
+
+@keyframes dropDown {
+  0%   { transform: translateY(0); }
+  50%   { transform: translateY(5px); }
+  100% { transform: translateY(0); }
 }
 
 @keyframes slideInFromRight {
