@@ -96,6 +96,10 @@ font-weight: 500;
     margin: 0px;
   }
 
+  .poin-1:not(hover) .ilust-1 {
+  animation: none;
+}
+
   .desc-1 {
     padding-right: 0px;
   }
