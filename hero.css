@@ -61,3 +61,13 @@
     opacity: 1;
   }
 }
+
+.fade-in-up {
+  opacity: 1;
+  transform: translateY(50px) scale(0.8);
+  transition: transform 1.2s cubic-bezier(0.17, 0.98, 0.29, 0.98);
+}
+
+.fade-in-up.visible {
+  transform: translateY(0) scale(1);
+}
