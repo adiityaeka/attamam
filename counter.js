@@ -1,7 +1,7 @@
   const counters = [
   { id: 'pd', start: 550, target: 700 },
   { id: 'gtp', start: 0, target: 100 },
-  { id: 'unit', start: 0, target: 4 },
+  { id: 'unit', start: 0, target: 5 },
   { id: 'mitra', start: 0, target: 35 }
 ];
 
