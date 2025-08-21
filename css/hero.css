@@ -1,0 +1,73 @@
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 80vh;
+  margin-bottom: 100px;
+  z-index: 1;
+  padding: 20px;
+  box-sizing: border-box;
+  animation: slideInFromBottom 0.5s ease
+}
+
+.hero-text h1 {
+  margin: 0;
+  font-size: 120px;
+  line-height: 1.2;
+  font-weight: bold;
+}
+
+.hero-text p {
+  margin-top: 10px;
+  font-size: 50px;
+  line-height: 1.2;
+  font-weight: lighter;
+}
+
+.img-with-desc {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 40px;
+  margin: 100px;
+  flex-wrap: wrap;
+}
+
+.side-image {
+  max-width: 850px;
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+  border: 3px solid #ffffff;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.desc {
+  max-width: 800px;
+  color: #ffffff;
+  font-size: 40px;
+  line-height: 1.2;
+}
+
+@keyframes slideInFromBottom {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.fade-in-up {
+  opacity: 1;
+  transform: translateY(50px) scale(0.8);
+  transition: transform 1.2s cubic-bezier(0.17, 0.98, 0.29, 0.98);
+}
+
+.fade-in-up.visible {
+  transform: translateY(0) scale(1);
+}
