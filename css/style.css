@@ -18,7 +18,7 @@ body::before {
     content: '';
     position: fixed;
     inset: 0;
-    background-image: url(assets/Line.svg);
+    background-image: url("assets/Line.svg");
     opacity: 0.25;
     z-index: 1;
     pointer-events: none;
